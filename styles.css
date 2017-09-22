@@ -1,0 +1,228 @@
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    padding-top: 100px;
+}
+footer {
+    padding: 30px 0;
+}
+
+/*
+ * Custom styles
+ */
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+#navbar{
+      background-color:#7226E0;
+}
+
+#navbar {
+    background: #7226E0;
+    position: relative;
+    height: 110px !important;
+    padding: 0 90px;
+    border-bottom: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#homeLink{
+        background: transparent url(logo.png) 0 0 no-repeat;
+    width: 208px;
+    height: 52px;
+    margin: 8px 0 0;
+    display: block;
+    top: 20px;
+        color: #7226E0;
+    text-decoration: none;
+    outline: none;
+        position: absolute;
+}
+
+#footer {
+    border: 0;
+    text-align: left;
+    padding: 30px 20px 20px;
+    background: #7226E0;
+    min-height: 180px;
+    color: #B09BBC;
+    line-height: 1.4;
+    margin-top: 40px;
+}
+
+/*#footer {
+    clear: both;
+    position: relative;
+}*/
+
+ul.footer a:link, ul.footer a:visited {
+    color: #fff;
+}
+
+ul.footer li a {
+    padding: 0;
+    font-size: 11px;
+    line-height: 11px;
+}
+
+ul.footer {
+    width: 995px;
+    padding: 0;
+}
+
+ul.footer {
+    margin: 0 auto;
+    width: 985px;
+    padding-top: 2px;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 5px;
+}
+
+ul.footer li {
+    padding: 0 15px 0 0;
+    margin: 0;
+    color: #eed9c2;
+    font-size: 11px;
+    line-height: 11px;
+}
+
+ul.footer li {
+    display: inline;
+    padding: 0 5px;
+    color: #777;
+}
+
+/*div#wrapper {
+    text-align: left;
+    padding-bottom: 0;
+    background: #fff;
+}
+
+DIV#wrapper {
+    min-height: 95%;
+    padding-bottom: 1em;
+    position: relative;
+}*/
+
+div#wrapper:before {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    height: 330px;
+    background: #ffbf65;
+    content: " ";
+}
+
+.innerContentWrapper {
+    position: relative;
+    min-height: 250px;
+    padding: 50px;
+    background: #fff;
+}
+
+.jumbotron {
+    background-color: #fff;
+      font-size: 29px;
+}
+
+.noRoundCorner{
+    border-radius: 0px;
+}
+
+h1 {
+    color: #7226E0 !important;
+    font-family: 'HurmeGeometricSans4', Arial, sans-serif;
+    font-size: 29px;
+    line-height: 26px;
+    font-weight: bold;
+    border-bottom: none;
+    text-transform: lowercase;
+    margin-bottom: .5em;
+}
+
+.jumbotron h1 {
+     font-size: 29px !important;
+}
+
+.btn-primary{
+    color: #fff;
+    background-image: none;
+    background-color: #7226E0;
+    border-color: #7226E0;
+}
+
+#navbar h1 {
+    padding: 45px 10px 0 0;
+    font: bold 25px 'HurmeGeometricSans4', Arial, san-serif;
+    line-height: 25px;
+    color: #fff;
+    text-transform: none;
+        color: #fff !important;
+    /* font-size: 22px; */
+    margin: 0;
+    /* padding: 22px 0 0 10px; */
+    border: none;
+    text-align: right;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    right: 10px; /* padding from the left side of the window */
+}
+
+.well {
+    background-color: transparent;
+    border: 1px solid #ffbf65;
+    border-radius: 0px;
+    color: #ffbf65;
+}
